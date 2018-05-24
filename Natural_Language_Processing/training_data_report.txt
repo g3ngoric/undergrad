@@ -1,0 +1,87 @@
+3.2
+
+500
+Correctly Classified Instances         177               49.3036 %
+Incorrectly Classified Instances       182               50.6964 %
+
+1000
+Correctly Classified Instances         195               54.3175 %
+Incorrectly Classified Instances       164               45.6825 %
+
+1500
+Correctly Classified Instances         194               54.039  %
+Incorrectly Classified Instances       165               45.961  %
+
+2000
+Correctly Classified Instances         198               55.1532 %
+Incorrectly Classified Instances       161               44.8468 %
+
+2500
+Correctly Classified Instances         193               53.7604 %
+Incorrectly Classified Instances       166               46.2396 %
+
+3000
+Correctly Classified Instances         189               52.6462 %
+Incorrectly Classified Instances       170               47.3538 %
+
+3500
+Correctly Classified Instances         195               54.3175 %
+Incorrectly Classified Instances       164               45.6825 %
+
+4000
+Correctly Classified Instances         194               54.039  %
+Incorrectly Classified Instances       165               45.961  %
+
+4500
+Correctly Classified Instances         196               54.5961 %
+Incorrectly Classified Instances       163               45.4039 %
+
+5000
+Correctly Classified Instances         195               54.3175 %
+Incorrectly Classified Instances       164               45.6825 %
+
+5500
+Correctly Classified Instances         195               54.3175 %
+Incorrectly Classified Instances       164               45.6825 %
+
+6000
+Correctly Classified Instances         195               54.3175 %
+Incorrectly Classified Instances       164               45.6825 %
+
+6500
+Correctly Classified Instances         195               54.3175 %
+Incorrectly Classified Instances       164               45.6825 %
+
+7000
+Correctly Classified Instances         195               54.3175 %
+Incorrectly Classified Instances       164               45.6825 %
+
+
+7500
+Correctly Classified Instances         194               54.039  %
+Incorrectly Classified Instances       165               45.961  %
+
+8000
+Correctly Classified Instances         195               54.3175 %
+Incorrectly Classified Instances       164               45.6825 %
+
+8500
+Correctly Classified Instances         194               54.039  %
+Incorrectly Classified Instances       165               45.961  %
+
+9000
+Correctly Classified Instances         191               53.2033 %
+Incorrectly Classified Instances       168               46.7967 %
+
+9500
+Correctly Classified Instances         191               53.2033 %
+Incorrectly Classified Instances       168               46.7967 %
+
+10000
+Correctly Classified Instances         194               54.039  %
+Incorrectly Classified Instances       165               45.961  %
+
+With a small number of training examples, there seems to be promising results 
+of an increase in accuracy. However as the number of instances increase, 
+it doesn't seem to be the case and the number slowly decreases and reaches 
+very similar values to each other.

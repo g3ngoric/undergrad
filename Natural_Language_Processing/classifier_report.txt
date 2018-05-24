@@ -1,0 +1,53 @@
+3.1
+
+
+# SVM output (best classifier)
+Correctly Classified Instances         194               54.039  %
+Incorrectly Classified Instances       165               45.961  %
+# Decision Trees output
+Correctly Classified Instances         187               52.0891 %
+Incorrectly Classified Instances       172               47.9109 %
+# Decision Trees output
+Correctly Classified Instances         184               51.2535 %
+Incorrectly Classified Instances       175               48.7465 %
+
+
+Time taken to build model: 1.61 seconds
+Time taken to test model on training data: 0.08 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances       11960               59.8    %
+Incorrectly Classified Instances      8040               40.2    %
+Kappa statistic                          0.196 
+Mean absolute error                      0.402 
+Root mean squared error                  0.634 
+Relative absolute error                 80.4    %
+Root relative squared error            126.8069 %
+Total Number of Instances            20000     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 5272 4728 |    a = 0
+ 3312 6688 |    b = 4
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         194               54.039  %
+Incorrectly Classified Instances       165               45.961  %
+Kappa statistic                          0.0757
+Mean absolute error                      0.4596
+Root mean squared error                  0.6779
+Relative absolute error                 91.922  %
+Root relative squared error            135.5891 %
+Total Number of Instances              359     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+  60 117 |   a = 0
+  48 134 |   b = 4

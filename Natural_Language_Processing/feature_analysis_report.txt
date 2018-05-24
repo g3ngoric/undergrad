@@ -1,0 +1,71 @@
+3.3
+n = 500
+=== Attribute Selection on all input data ===
+
+Search Method:
+        Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 21 class):
+        Information Gain Ranking Filter
+
+Ranked attributes:
+ 0.01735    1 feat1
+ 0.01703   14 feat14
+ 0.01153    2 feat2
+ 0.00502   11 feat11
+ 0          9 feat9
+ 0          8 feat8
+ 0          7 feat7
+ 0          4 feat4
+ 0          3 feat3
+ 0          6 feat6
+ 0          5 feat5
+ 0         18 feat18
+ 0         17 feat17
+ 0         20 feat20
+ 0         19 feat19
+ 0         12 feat12
+ 0         10 feat10
+ 0         16 feat16
+ 0         13 feat13
+ 0         15 feat15
+
+Selected attributes: 1,14,2,11,9,8,7,4,3,6,5,18,17,20,19,12,10,16,13,15 : 20
+
+n = 10000
+=== Attribute Selection on all input data ===
+
+Search Method:
+        Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 21 class):
+        Information Gain Ranking Filter
+
+Ranked attributes:
+ 0.015459    2 feat2
+ 0.013451   14 feat14
+ 0.010868    1 feat1
+ 0.003546   12 feat12
+ 0.002894    9 feat9
+ 0.002811    5 feat5
+ 0.00144    13 feat13
+ 0.001225    3 feat3
+ 0.000688    8 feat8
+ 0.00025    17 feat17
+ 0           4 feat4
+ 0           7 feat7
+ 0           6 feat6
+ 0          18 feat18
+ 0          20 feat20
+ 0          19 feat19
+ 0          11 feat11
+ 0          10 feat10
+ 0          16 feat16
+ 0          15 feat15
+
+Selected attributes: 2,14,1,12,9,5,13,3,8,17,4,7,6,18,20,19,11,10,16,15 : 20
+
+With the exception of feature 11, features 1(first person pronouns), 
+2(second person pronouns),  and 11(elipsis) are both ranked in both sets.
+These features are very prevalent in corpora as most sentences would have
+some sort of pronoun in there.  
